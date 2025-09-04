@@ -8,7 +8,6 @@
 <sup>*</sup>Equal contribution &nbsp; <sup>&dagger;</sup>Corresponding author</p>
 
 
-
 Flow-based 3D generation models typically require dozens of sampling steps during inference. 
 Though few-step distillation methods, particularly Consistency Models (CMs), have achieved substantial advancements in accelerating 2D diffusion models, they remain under-explored for more complex 3D generation tasks. 
 In this study, we propose a novel framework, MDT-dist, for few-step 3D flow distillation. 
@@ -19,3 +18,14 @@ Velocity Distillation (VD) further enhances the optimization process by leveragi
 When evaluated on the pioneer 3D generation framework TRELLIS, our method reduces sampling steps of each flow transformer from 25 to 1–2, achieving 0.68s (1 step x 2) and 0.94s (2 steps x 2) latency with 9.0x and 6.5x speedup on A800, while preserving high visual and geometric fidelity. 
 Extensive experiments demonstrate that our method significantly outperforms existing CM distillation methods, and enables TRELLIS to achieve superior performance in few-step 3D generation. 
 
+
+## Citation
+If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
+Some source code of ours is borrowed from [TRELLIS](https://github.com/Microsoft/TRELLIS). We sincerely appreciate the excellent works of these authors.
+```
+@article{mdt-dist,
+    title={Few-step Flow for 3D Generation via Marginal-Data Transport Distillation},
+    author={Zhou, Zanwei and Yi, Taoran and Fang, Jiemin and Yang, Chen and Xie, Lingxi and Wang, Xinggang and Shen, Wei and Tian, Qi}
+    year={2025}
+}
+```
