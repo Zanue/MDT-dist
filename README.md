@@ -1,5 +1,5 @@
 # Few-step Flow for 3D Generation via Marginal-Data Transport Distillation
-### [Project Page](https://zanue.github.io/mdt-dist/) | [arxiv Paper](https://arxiv.org)
+### [Project Page](https://zanue.github.io/mdt-dist/) | [Arxiv Paper](https://arxiv.org)
 
 [Zanwei Zhou](https://github.com/Zanue)<sup>1,* </sup>, [Taoran Yi](https://taoranyi.com/)<sup>2,*</sup>, [Jiemin Fang](https://jaminfong.cn/)<sup>3,&dagger;</sup>, [Chen Yang](https://chensjtu.github.io/)<sup>3</sup>, [Lingxi Xie](http://lingxixie.com/Home.html)<sup>3</sup>, [Xinggang Wang](https://xwcv.github.io/)<sup>2</sup>, [Wei Shen](https://shenwei1231.github.io/)<sup>1,&dagger;</sup>, [Qi Tian](https://www.qitian1987.com/)<sup>3</sup>, 
 
