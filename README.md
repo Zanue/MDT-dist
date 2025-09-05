@@ -8,6 +8,11 @@
 <sup>*</sup>Equal contribution &nbsp; <sup>&dagger;</sup>Corresponding author</p>
 
 
+
+https://github.com/user-attachments/assets/215e3d2f-14da-4dea-ab36-7ee93a05e85b
+
+
+
 Flow-based 3D generation models typically require dozens of sampling steps during inference. 
 Though few-step distillation methods, particularly Consistency Models (CMs), have achieved substantial advancements in accelerating 2D diffusion models, they remain under-explored for more complex 3D generation tasks. 
 In this study, we propose a novel framework, MDT-dist, for few-step 3D flow distillation. 
