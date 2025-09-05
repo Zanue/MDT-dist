@@ -1,5 +1,5 @@
 # Few-step Flow for 3D Generation via Marginal-Data Transport Distillation
-### [Project Page](https://zanue.github.io/mdt-dist/) | [Arxiv Paper](https://arxiv.org/abs/2509.04406)
+### [Project Page](https://zanue.github.io/mdt-dist/mdt-dist.html) | [Arxiv Paper](https://arxiv.org/abs/2509.04406)
 
 [Zanwei Zhou](https://github.com/Zanue)<sup>1,* </sup>, [Taoran Yi](https://taoranyi.com/)<sup>2,*</sup>, [Jiemin Fang](https://jaminfong.cn/)<sup>3,&dagger;</sup>, [Chen Yang](https://chensjtu.github.io/)<sup>3</sup>, [Lingxi Xie](http://lingxixie.com/Home.html)<sup>3</sup>, [Xinggang Wang](https://xwcv.github.io/)<sup>2</sup>, [Wei Shen](https://shenwei1231.github.io/)<sup>1,&dagger;</sup>, [Qi Tian](https://www.qitian1987.com/)<sup>3</sup>, 
 
@@ -19,7 +19,7 @@ When evaluated on the pioneer 3D generation framework TRELLIS, our method reduce
 Extensive experiments demonstrate that our method significantly outperforms existing CM distillation methods, and enables TRELLIS to achieve superior performance in few-step 3D generation. 
 
 ## Updates
-- 9/5/2025: Release traning code.
+- 9/5/2025: Release training code.
 
 ## TODO List
 - Project page is under construction
