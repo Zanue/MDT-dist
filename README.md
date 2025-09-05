@@ -18,6 +18,12 @@ Velocity Distillation (VD) further enhances the optimization process by leveragi
 When evaluated on the pioneer 3D generation framework TRELLIS, our method reduces sampling steps of each flow transformer from 25 to 1–2, achieving 0.68s (1 step x 2) and 0.94s (2 steps x 2) latency with 9.0x and 6.5x speedup on A800, while preserving high visual and geometric fidelity. 
 Extensive experiments demonstrate that our method significantly outperforms existing CM distillation methods, and enables TRELLIS to achieve superior performance in few-step 3D generation. 
 
+## Updates
+- 9/5/2025: Release traning code.
+
+## TODO List
+- Project page is under construction
+- Checkpoints
 
 ## Citation
 If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
@@ -26,6 +32,7 @@ Some source code of ours is borrowed from [TRELLIS](https://github.com/Microsoft
 @article{mdt-dist,
     title={Few-step Flow for 3D Generation via Marginal-Data Transport Distillation},
     author={Zhou, Zanwei and Yi, Taoran and Fang, Jiemin and Yang, Chen and Xie, Lingxi and Wang, Xinggang and Shen, Wei and Tian, Qi}
+    journal={arXiv:2509.04406},
     year={2025}
 }
 ```
