@@ -140,7 +140,9 @@ class SparseFlowMDTTrainer(FlowMDTTrainer):
             raise ValueError(f"Unknown distill_type: {self.distill_type}")
         # normalization
         if self.d_norm:
-            dv_dt_norm = torch.cat([torch.linalg.vector_norm(dv_dt.feats[dv_dt.layout[i]], dim=(0, 1), keepdim=True).repeat(dv_dt.layout[i].stop-dv_dt.layout[i].start, dv_dt.feats.shape[1]) for i in range(dv_dt.shape[0])], dim=0)
+            dv_dt_norm = torch.cat([torch.linalg.vector_norm(dv_dt.feats[dv_dt.layout[i]], dim=(0, 1), \
+                                    keepdim=True).repeat(dv_dt.layout[i].stop-dv_dt.layout[i].start, dv_dt.feats.shape[1]) \
+                                    for i in range(dv_dt.shape[0])], dim=0)
             dv_dt_norm = dv_dt.replace(dv_dt_norm)
             dv_dt = dv_dt / (dv_dt_norm + 0.1)  # 0.1 is the constant c, can be modified
         v_tgt = v_teacher - t_reshape * dv_dt
