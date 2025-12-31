@@ -29,7 +29,6 @@ Extensive experiments demonstrate that our method significantly outperforms exis
 
 ## TODO List
 - Project page is under construction
-- Checkpoints
 
 ## Citation
 If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
