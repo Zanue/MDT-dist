@@ -30,6 +30,13 @@ Extensive experiments demonstrate that our method significantly outperforms exis
 ## TODO List
 - Project page is under construction
 
+## Acknowledgement
+
+We would like to express our gratitude to the following projects for their help with the evaluation components:
+
+* **[FlashVDM](https://github.com/Tencent-Hunyuan/FlashVDM)**
+* **[Direct3D-S2](https://github.com/DreamTechAI/Direct3D-S2)**
+
 ## Citation
 If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
 Some source code of ours is borrowed from [TRELLIS](https://github.com/Microsoft/TRELLIS). We sincerely appreciate the excellent works of these authors.
