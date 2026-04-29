@@ -41,10 +41,13 @@ We would like to express our gratitude to the following projects for their help 
 If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
 Some source code of ours is borrowed from [TRELLIS](https://github.com/Microsoft/TRELLIS). We sincerely appreciate the excellent works of these authors.
 ```
-@article{mdt-dist,
-    title={Few-step Flow for 3D Generation via Marginal-Data Transport Distillation},
-    author={Zhou, Zanwei and Yi, Taoran and Fang, Jiemin and Yang, Chen and Xie, Lingxi and Wang, Xinggang and Shen, Wei and Tian, Qi}
-    journal={arXiv:2509.04406},
-    year={2025}
+@inproceedings{zhou2026few,
+  title={Few-step Flow for 3D Generation via Marginal-Data Transport Distillation},
+  author={Zhou, Zanwei and Yi, Taoran and Fang, Jiemin and Yang, Chen and Xie, Lingxi and Wang, Xinggang and Shen, Wei and Tian, Qi},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={16},
+  pages={13853--13861},
+  year={2026}
 }
 ```
